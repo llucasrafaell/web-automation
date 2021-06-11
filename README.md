@@ -1,7 +1,7 @@
 ## Automação Web
 
 ### Descrição do Projeto
-Aplicação de automação web em Python utilizando a biblioteca selenium. 
+Aplicação de automação web simples em Python utilizando a biblioteca selenium. 
 ### 📑 Funcionalidades
 
 - [x] Automação de busca pela previsão do tempo.
@@ -31,5 +31,10 @@ python WebAutomation.py
 ### Demonstração de aplicação
 
 <h4 align="center">   
+	
+<p align="center">
+  <img src="Images/web.PNG" alt="Images"/>
+</p>
+	
 	☑️  Status do projeto: Finalizado ☑️
 </h4>
