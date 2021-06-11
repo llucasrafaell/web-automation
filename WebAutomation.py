@@ -1,10 +1,11 @@
 from selenium import webdriver
 
-navegador = webdriver.Firefox()
-navegador.get("https://www.youtube.com/")
+navegador = webdriver.Chrome()
+navegador.get("https://www.google.com/")
 
-caixa_de_texto = navegador.find_element_by_xpath('//*[@id="search"]')
-caixa_de_texto.send_keys('gtm iot robot arena control ')
+search = navegador.find_element_by_xpath('/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input')
+search.click()
+search.send_keys('previsão do tempo')
+button_search = navegador.find_element_by_xpath('/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]')
+button_search.click()
 
-botao_de_pesquisa = navegador.find_elements_by_xpath('/html/body/ytd-app/div/div/ytd-masthead/div[3]/div[2]/ytd-searchbox/form/button/yt-icon')
-botao_de_pesquisa.click()
