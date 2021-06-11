@@ -4,7 +4,7 @@
 Aplicação de automação web em Python utilizando a biblioteca selenium. 
 ### 📑 Funcionalidades
 
-- [x] Automação de busca por vídeo que publiquei no youtube.
+- [x] Automação de busca pela previsão do tempo.
 
 ### 📌 Pré-requisitos
 
